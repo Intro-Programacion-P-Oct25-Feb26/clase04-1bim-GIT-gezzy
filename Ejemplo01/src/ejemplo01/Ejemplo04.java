@@ -17,6 +17,14 @@ public class Ejemplo04 {
         System.out.print(nombreEstudiante + " ");
         System.out.print(apellidoEstudiante + " ");
         System.out.print(nacimiento + " ");
-        System.out.print(nombreEstudiante + " ");
+        System.out.println(nombreEstudiante + " ");
+        /*La diferencia entre el comando "print" y "println" es que mientras el primero
+         *imrpime las cadenas en la misma linea, el segundo da un salto de linea.
+         */
+        System.out.println("----------------------------------------------------");
+        System.out.println(nombreEstudiante + " ");
+        System.out.println(apellidoEstudiante + " ");
+        System.out.println(nacimiento + " ");
+        System.out.println(nombreEstudiante + " ");
     }
 }
